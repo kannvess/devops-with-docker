@@ -1,0 +1,443 @@
+Script started on 2024-05-15 16:54:33+07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="94" LINES="45"]
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# docker run ubuntu [K-ubuntuiubuntutubuntu ubuntu[C[C[C[C[C[C sh -c ''w'h'i'l'e' 't'r'u'e';' 'd'o' ' [A
+]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce'
+c'h'o' '"'"'I"'n"'p"'u"'t"' "'w"'e"'b"'s"'i"'t"'e"':"'[C;' 'r'e'a'd' 'w'e'b's'i't'e';' 'e'c'h'o' '"'S'e'a'r'c'h'i'n'g'.'.'"';' 's'l'e'e'p' '1';' 'c'r'[1P'u'r'l' 'h't't'p':'%'[1P'$'/'/'[1P'[1P'[1P'/'/'%'[1P'$'w'e'b's'i't'e';' 'd'o'n'e'
+[?2004l
+Input website:
+helsinki.fi
+Searching..
+sh: 1: curl: not found
+Input website:
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# dok[Kcker ps
+[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+5e023d549882   ubuntu    "sh -c 'while true; …"   16 seconds ago   Up 15 seconds             laughing_heyrovsky
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# docker exec 5 ap up[K[K[Kt update
+[?2004l
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [89.7 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+Get:3 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [31.6 kB]
+Get:4 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [12.1 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates InRelease [89.7 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-backports InRelease [89.7 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [117 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [331 kB]
+Get:9 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1808 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [19.3 MB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [20.5 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [34.0 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [4224 B]
+Fetched 22.2 MB in 11s (1987 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# docker exec 5 apt update[K[K[K[K[K[Kinstall curl
+[?2004l
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  ca-certificates krb5-locales libbrotli1 libcurl4t64 libdb5.3t64
+  libgssapi-krb5-2 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0
+  libldap-common libldap2 libnghttp2-14 libpsl5t64 librtmp1 libsasl2-2
+  libsasl2-modules libsasl2-modules-db libssh-4 openssl publicsuffix
+Suggested packages:
+  krb5-doc krb5-user libsasl2-modules-gssapi-mit
+  | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp
+  libsasl2-modules-sql
+The following NEW packages will be installed:
+  ca-certificates curl krb5-locales libbrotli1 libcurl4t64 libdb5.3t64
+  libgssapi-krb5-2 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0
+  libldap-common libldap2 libnghttp2-14 libpsl5t64 librtmp1 libsasl2-2
+  libsasl2-modules libsasl2-modules-db libssh-4 openssl publicsuffix
+0 upgraded, 22 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4295 kB of archives.
+After this operation, 11.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Abort.
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# docker exect [K[K -it 5 a[Kbash
+[?2004l
+[?2004h]0;root@5e023d549882: /root@5e023d549882:/# ub  ubun    apt install curl
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  ca-certificates krb5-locales libbrotli1 libcurl4t64 libdb5.3t64 libgssapi-krb5-2
+  libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap-common libldap2 libnghttp2-14
+  libpsl5t64 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 openssl
+  publicsuffix
+Suggested packages:
+  krb5-doc krb5-user libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal
+  libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql
+The following NEW packages will be installed:
+  ca-certificates curl krb5-locales libbrotli1 libcurl4t64 libdb5.3t64 libgssapi-krb5-2
+  libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap-common libldap2 libnghttp2-14
+  libpsl5t64 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 openssl
+  publicsuffix
+0 upgraded, 22 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4295 kB of archives.
+After this operation, 11.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+[33m
+0% [Working][0m[33m
+0% [Waiting for headers][0m
+                        
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 openssl amd64 3.0.13-0ubuntu3 [1002 kB]
+[33m
+0% [1 openssl 4096 B/1002 kB 0%][0m[33m
+1% [1 openssl 42.9 kB/1002 kB 4%][0m[33m
+2% [1 openssl 91.9 kB/1002 kB 9%][0m[33m
+6% [1 openssl 319 kB/1002 kB 32%][0m[33m
+                                 
+20% [Working][0m
+             
+Get:2 http://archive.ubuntu.com/ubuntu noble/main amd64 ca-certificates all 20240203 [159 kB]
+[33m
+20% [2 ca-certificates 11.2 kB/159 kB 7%][0m[33m
+                                         
+23% [Waiting for headers][0m
+                         
+Get:3 http://archive.ubuntu.com/ubuntu noble/main amd64 krb5-locales all 1.20.1-6ubuntu2 [13.8 kB]
+[33m
+24% [3 krb5-locales 11.4 kB/13.8 kB 82%][0m[33m
+                                        
+25% [Waiting for headers][0m
+                         
+Get:4 http://archive.ubuntu.com/ubuntu noble/main amd64 libdb5.3t64 amd64 5.3.28+dfsg2-7 [734 kB]
+[33m
+25% [4 libdb5.3t64 10.2 kB/734 kB 1%][0m[33m
+                                     
+39% [Waiting for headers][0m
+                         
+Get:5 http://archive.ubuntu.com/ubuntu noble/main amd64 libkrb5support0 amd64 1.20.1-6ubuntu2 [33.5 kB]
+[33m
+39% [5 libkrb5support0 15.6 kB/33.5 kB 47%][0m[33m
+                                           
+41% [Waiting for headers][0m
+                         
+Get:6 http://archive.ubuntu.com/ubuntu noble/main amd64 libk5crypto3 amd64 1.20.1-6ubuntu2 [81.7 kB]
+[33m
+41% [6 libk5crypto3 4889 B/81.7 kB 6%][0m[33m
+                                      
+43% [Waiting for headers][0m
+                         
+Get:7 http://archive.ubuntu.com/ubuntu noble/main amd64 libkeyutils1 amd64 1.6.3-3build1 [9490 B]
+[33m
+43% [7 libkeyutils1 2589 B/9490 B 27%][0m[33m
+                                      
+44% [Waiting for headers][0m
+                         
+Get:8 http://archive.ubuntu.com/ubuntu noble/main amd64 libkrb5-3 amd64 1.20.1-6ubuntu2 [347 kB]
+[33m
+44% [8 libkrb5-3 7200 B/347 kB 2%][0m[33m
+                                  
+52% [Waiting for headers][0m
+                         
+Get:9 http://archive.ubuntu.com/ubuntu noble/main amd64 libgssapi-krb5-2 amd64 1.20.1-6ubuntu2 [142 kB]
+[33m
+52% [9 libgssapi-krb5-2 6624 B/142 kB 5%][0m[33m
+                                         
+55% [Waiting for headers][0m
+                         
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnghttp2-14 amd64 1.59.0-1ubuntu0.1 [74.3 kB]
+[33m
+55% [10 libnghttp2-14 1983 B/74.3 kB 3%][0m[33m
+                                        
+57% [Waiting for headers][0m
+                         
+Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+[33m
+58% [11 libpsl5t64 1866 B/57.1 kB 3%][0m[33m
+                                     
+59% [Waiting for headers][0m
+                         
+Get:12 http://archive.ubuntu.com/ubuntu noble/main amd64 publicsuffix all 20231001.0357-0.1 [129 kB]
+[33m
+60% [12 publicsuffix 6908 B/129 kB 5%][0m[33m
+                                      
+63% [Waiting for headers][0m
+                         
+Get:13 http://archive.ubuntu.com/ubuntu noble/main amd64 libbrotli1 amd64 1.1.0-2build2 [331 kB]
+[33m
+63% [13 libbrotli1 13.0 kB/331 kB 4%][0m[33m
+                                     
+70% [Working][0m
+             
+Get:14 http://archive.ubuntu.com/ubuntu noble/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg1-5ubuntu3 [20.3 kB]
+[33m
+70% [14 libsasl2-modules-db 8692 B/20.3 kB 43%][0m[33m
+                                               
+71% [Waiting for headers][0m
+                         
+Get:15 http://archive.ubuntu.com/ubuntu noble/main amd64 libsasl2-2 amd64 2.1.28+dfsg1-5ubuntu3 [53.2 kB]
+[33m
+71% [15 libsasl2-2 9790 B/53.2 kB 18%][0m[33m
+                                      
+73% [Waiting for headers][0m
+                         
+Get:16 http://archive.ubuntu.com/ubuntu noble/main amd64 libldap2 amd64 2.6.7+dfsg-1~exp1ubuntu8 [195 kB]
+[33m
+73% [16 libldap2 8348 B/195 kB 4%][0m[33m
+                                  
+78% [Waiting for headers][0m
+                         
+Get:17 http://archive.ubuntu.com/ubuntu noble/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build7 [56.3 kB]
+[33m
+78% [17 librtmp1 19.8 kB/56.3 kB 35%][0m[33m
+                                     
+80% [Waiting for headers][0m
+                         
+Get:18 http://archive.ubuntu.com/ubuntu noble/main amd64 libssh-4 amd64 0.10.6-2build2 [188 kB]
+[33m
+80% [18 libssh-4 2278 B/188 kB 1%][0m[33m
+                                  
+84% [Working][0m
+             
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.1 [341 kB]
+[33m
+84% [19 libcurl4t64 8692 B/341 kB 3%][0m[33m
+                                     
+91% [Waiting for headers][0m
+                         
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 curl amd64 8.5.0-2ubuntu10.1 [227 kB]
+[33m
+91% [20 curl 11.1 kB/227 kB 5%][0m[33m
+                               
+96% [Waiting for headers][0m
+                         
+Get:21 http://archive.ubuntu.com/ubuntu noble/main amd64 libldap-common all 2.6.7+dfsg-1~exp1ubuntu8 [31.4 kB]
+[33m
+96% [21 libldap-common 3918 B/31.4 kB 12%][0m[33m
+                                          
+98% [Waiting for headers][0m
+                         
+Get:22 http://archive.ubuntu.com/ubuntu noble/main amd64 libsasl2-modules amd64 2.1.28+dfsg1-5ubuntu3 [69.7 kB]
+[33m
+98% [22 libsasl2-modules 8349 B/69.7 kB 12%][0m[33m
+                                            
+100% [Working][0m
+              
+Fetched 4295 kB in 4s (1039 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;44r8[1ASelecting previously unselected package openssl.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 4368 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.13-0ubuntu3_amd64.deb ...
+7[45;0f[42m[30mProgress: [  0%][49m[39m [........................................................................] 87[45;0f[42m[30mProgress: [  1%][49m[39m [........................................................................] 8Unpacking openssl (3.0.13-0ubuntu3) ...
+7[45;0f[42m[30mProgress: [  2%][49m[39m [#.......................................................................] 8Selecting previously unselected package ca-certificates.
+Preparing to unpack .../01-ca-certificates_20240203_all.deb ...
+7[45;0f[42m[30mProgress: [  3%][49m[39m [##......................................................................] 8Unpacking ca-certificates (20240203) ...
+7[45;0f[42m[30mProgress: [  4%][49m[39m [###.....................................................................] 8Selecting previously unselected package krb5-locales.
+Preparing to unpack .../02-krb5-locales_1.20.1-6ubuntu2_all.deb ...
+7[45;0f[42m[30mProgress: [  6%][49m[39m [####....................................................................] 8Unpacking krb5-locales (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [  7%][49m[39m [####....................................................................] 8Selecting previously unselected package libdb5.3t64:amd64.
+Preparing to unpack .../03-libdb5.3t64_5.3.28+dfsg2-7_amd64.deb ...
+7[45;0f[42m[30mProgress: [  8%][49m[39m [#####...................................................................] 8Unpacking libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+7[45;0f[42m[30mProgress: [  9%][49m[39m [######..................................................................] 8Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../04-libkrb5support0_1.20.1-6ubuntu2_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 10%][49m[39m [#######.................................................................] 8Unpacking libkrb5support0:amd64 (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [ 11%][49m[39m [########................................................................] 8Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../05-libk5crypto3_1.20.1-6ubuntu2_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 12%][49m[39m [########................................................................] 8Unpacking libk5crypto3:amd64 (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [ 13%][49m[39m [#########...............................................................] 8Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../06-libkeyutils1_1.6.3-3build1_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 15%][49m[39m [##########..............................................................] 8Unpacking libkeyutils1:amd64 (1.6.3-3build1) ...
+7[45;0f[42m[30mProgress: [ 16%][49m[39m [###########.............................................................] 8Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../07-libkrb5-3_1.20.1-6ubuntu2_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 17%][49m[39m [############............................................................] 8Unpacking libkrb5-3:amd64 (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [ 18%][49m[39m [############............................................................] 8Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../08-libgssapi-krb5-2_1.20.1-6ubuntu2_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 19%][49m[39m [#############...........................................................] 8Unpacking libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [ 20%][49m[39m [##############..........................................................] 8Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../09-libnghttp2-14_1.59.0-1ubuntu0.1_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 21%][49m[39m [###############.........................................................] 8Unpacking libnghttp2-14:amd64 (1.59.0-1ubuntu0.1) ...
+7[45;0f[42m[30mProgress: [ 22%][49m[39m [################........................................................] 8Selecting previously unselected package libpsl5t64:amd64.
+Preparing to unpack .../10-libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 24%][49m[39m [################........................................................] 8Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+7[45;0f[42m[30mProgress: [ 25%][49m[39m [#################.......................................................] 8Selecting previously unselected package publicsuffix.
+Preparing to unpack .../11-publicsuffix_20231001.0357-0.1_all.deb ...
+7[45;0f[42m[30mProgress: [ 26%][49m[39m [##################......................................................] 8Unpacking publicsuffix (20231001.0357-0.1) ...
+7[45;0f[42m[30mProgress: [ 27%][49m[39m [###################.....................................................] 8Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../12-libbrotli1_1.1.0-2build2_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 28%][49m[39m [####################....................................................] 8Unpacking libbrotli1:amd64 (1.1.0-2build2) ...
+7[45;0f[42m[30mProgress: [ 29%][49m[39m [#####################...................................................] 8Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../13-libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 30%][49m[39m [#####################...................................................] 8Unpacking libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3) ...
+7[45;0f[42m[30mProgress: [ 31%][49m[39m [######################..................................................] 8Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../14-libsasl2-2_2.1.28+dfsg1-5ubuntu3_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 33%][49m[39m [#######################.................................................] 8Unpacking libsasl2-2:amd64 (2.1.28+dfsg1-5ubuntu3) ...
+7[45;0f[42m[30mProgress: [ 34%][49m[39m [########################................................................] 8Selecting previously unselected package libldap2:amd64.
+Preparing to unpack .../15-libldap2_2.6.7+dfsg-1~exp1ubuntu8_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 35%][49m[39m [#########################...............................................] 8Unpacking libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8) ...
+7[45;0f[42m[30mProgress: [ 36%][49m[39m [#########################...............................................] 8Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../16-librtmp1_2.4+20151223.gitfa8646d.1-2build7_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 37%][49m[39m [##########################..............................................] 8Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+7[45;0f[42m[30mProgress: [ 38%][49m[39m [###########################.............................................] 8Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../17-libssh-4_0.10.6-2build2_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 39%][49m[39m [############################............................................] 8Unpacking libssh-4:amd64 (0.10.6-2build2) ...
+7[45;0f[42m[30mProgress: [ 40%][49m[39m [#############################...........................................] 8Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../18-libcurl4t64_8.5.0-2ubuntu10.1_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 42%][49m[39m [#############################...........................................] 8Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.1) ...
+7[45;0f[42m[30mProgress: [ 43%][49m[39m [##############################..........................................] 8Selecting previously unselected package curl.
+Preparing to unpack .../19-curl_8.5.0-2ubuntu10.1_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 44%][49m[39m [###############################.........................................] 8Unpacking curl (8.5.0-2ubuntu10.1) ...
+7[45;0f[42m[30mProgress: [ 45%][49m[39m [################################........................................] 8Selecting previously unselected package libldap-common.
+Preparing to unpack .../20-libldap-common_2.6.7+dfsg-1~exp1ubuntu8_all.deb ...
+7[45;0f[42m[30mProgress: [ 46%][49m[39m [#################################.......................................] 8Unpacking libldap-common (2.6.7+dfsg-1~exp1ubuntu8) ...
+7[45;0f[42m[30mProgress: [ 47%][49m[39m [#################################.......................................] 8Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../21-libsasl2-modules_2.1.28+dfsg1-5ubuntu3_amd64.deb ...
+7[45;0f[42m[30mProgress: [ 48%][49m[39m [##################################......................................] 8Unpacking libsasl2-modules:amd64 (2.1.28+dfsg1-5ubuntu3) ...
+7[45;0f[42m[30mProgress: [ 49%][49m[39m [###################################.....................................] 8Setting up libkeyutils1:amd64 (1.6.3-3build1) ...
+7[45;0f[42m[30mProgress: [ 51%][49m[39m [####################################....................................] 87[45;0f[42m[30mProgress: [ 52%][49m[39m [#####################################...................................] 8Setting up libbrotli1:amd64 (1.1.0-2build2) ...
+7[45;0f[42m[30mProgress: [ 53%][49m[39m [######################################..................................] 87[45;0f[42m[30mProgress: [ 54%][49m[39m [######################################..................................] 8Setting up libsasl2-modules:amd64 (2.1.28+dfsg1-5ubuntu3) ...
+7[45;0f[42m[30mProgress: [ 55%][49m[39m [#######################################.................................] 87[45;0f[42m[30mProgress: [ 56%][49m[39m [########################################................................] 8Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+7[45;0f[42m[30mProgress: [ 57%][49m[39m [#########################################...............................] 87[45;0f[42m[30mProgress: [ 58%][49m[39m [##########################################..............................] 8Setting up libnghttp2-14:amd64 (1.59.0-1ubuntu0.1) ...
+7[45;0f[42m[30mProgress: [ 60%][49m[39m [##########################################..............................] 87[45;0f[42m[30mProgress: [ 61%][49m[39m [###########################################.............................] 8Setting up krb5-locales (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [ 62%][49m[39m [############################################............................] 87[45;0f[42m[30mProgress: [ 63%][49m[39m [#############################################...........................] 8Setting up libldap-common (2.6.7+dfsg-1~exp1ubuntu8) ...
+7[45;0f[42m[30mProgress: [ 64%][49m[39m [##############################################..........................] 87[45;0f[42m[30mProgress: [ 65%][49m[39m [##############################################..........................] 8Setting up libkrb5support0:amd64 (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [ 66%][49m[39m [###############################################.........................] 87[45;0f[42m[30mProgress: [ 67%][49m[39m [################################################........................] 8Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+7[45;0f[42m[30mProgress: [ 69%][49m[39m [#################################################.......................] 87[45;0f[42m[30mProgress: [ 70%][49m[39m [##################################################......................] 8Setting up libk5crypto3:amd64 (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [ 71%][49m[39m [##################################################......................] 87[45;0f[42m[30mProgress: [ 72%][49m[39m [###################################################.....................] 8Setting up libdb5.3t64:amd64 (5.3.28+dfsg2-7) ...
+7[45;0f[42m[30mProgress: [ 73%][49m[39m [####################################################....................] 87[45;0f[42m[30mProgress: [ 74%][49m[39m [#####################################################...................] 8Setting up libkrb5-3:amd64 (1.20.1-6ubuntu2) ...
+7[45;0f[42m[30mProgress: [ 75%][49m[39m [######################################################..................] 87[45;0f[42m[30mProgress: [ 76%][49m[39m [#######################################################.................] 8Setting up openssl (3.0.13-0ubuntu3) ...
+7[45;0f[42m[30mProgress: [ 78%][49m[39m [#######################################################.................] 87[45;0f[42m[30mProgress: [ 79%][49m[39m [########################################################................] 8Setting up publicsuffix (20231001.0357-0.1) ...
+7[45;0f[42m[30mProgress: [ 80%][49m[39m [#########################################################...............] 87[45;0f[42m[30mProgress: [ 81%][49m[39m [##########################################################..............] 8Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3) ...
+7[45;0f[42m[30mProgress: [ 82%][49m[39m [###########################################################.............] 87[45;0f[42m[30mProgress: [ 83%][49m[39m [###########################################################.............] 8Setting up ca-certificates (20240203) ...
+7[45;0f[42m[30mProgress: [ 84%][49m[39m [############################################################............] 8debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 79.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/x86_64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+146 added, 0 removed; done.
+7[45;0f[42m[30mProgress: [ 85%][49m[39m [#############################################################...........] 8Setting up libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2) ...
+Setting up libsasl2-2:amd64 (2.1.28+dfsg1-5ubuntu3) ...
+7[45;0f[42m[30mProgress: [ 87%][49m[39m [##############################################################..........] 87[45;0f[42m[30mProgress: [ 88%][49m[39m [###############################################################.........] 8Setting up libssh-4:amd64 (0.10.6-2build2) ...
+7[45;0f[42m[30mProgress: [ 89%][49m[39m [################################################################........] 87[45;0f[42m[30mProgress: [ 90%][49m[39m [################################################################........] 8Setting up libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8) ...
+7[45;0f[42m[30mProgress: [ 91%][49m[39m [#################################################################.......] 87[45;0f[42m[30mProgress: [ 92%][49m[39m [##################################################################......] 8Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.1) ...
+7[45;0f[42m[30mProgress: [ 93%][49m[39m [###################################################################.....] 87[45;0f[42m[30mProgress: [ 95%][49m[39m [####################################################################....] 8Setting up curl (8.5.0-2ubuntu10.1) ...
+7[45;0f[42m[30mProgress: [ 96%][49m[39m [####################################################################....] 87[45;0f[42m[30mProgress: [ 97%][49m[39m [#####################################################################...] 8Processing triggers for libc-bin (2.39-0ubuntu8.1) ...
+Processing triggers for ca-certificates (20240203) ...
+7[45;0f[42m[30mProgress: [ 98%][49m[39m [######################################################################..] 8Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+7[45;0f[42m[30mProgress: [ 99%][49m[39m [#######################################################################.] 8
+7[0;45r8[1A[J[?2004h]0;root@5e023d549882: /root@5e023d549882:/# read escape sequence
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# docker ls[K[Kps
+[?2004l
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS              PORTS     NAMES
+5e023d549882   ubuntu    "sh -c 'while true; …"   About a minute ago   Up About a minute             laughing_heyrovsky
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# docker attach 5
+[?2004l
+helsinki.fi
+Searching..
+<html>
+
+<head><title>301 Moved Permanently</title></head>
+
+<body>
+
+<center><h1>301 Moved Permanently</h1></center>
+
+<hr><center>nginx/1.22.1</center>
+
+</body>
+
+</html>
+
+Input website:
+^C[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# [?2004l
+
+exit
+
+Script done on 2024-05-15 16:57:16+07:00 [COMMAND_EXIT_CODE="130"]
