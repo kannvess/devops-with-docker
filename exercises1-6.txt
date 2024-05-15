@@ -1,0 +1,290 @@
+Script started on 2024-05-15 19:07:07+07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="94" LINES="45"]
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# dock[K[K[K[Kdocker run i[K-it devopsdockeruh/pull_exeri[Kcise
+[?2004l
+Unable to find image 'devopsdockeruh/pull_exercise:latest' locally
+latest: Pulling from devopsdockeruh/pull_exercise
+
+[1A[2K
+8e402f1a9c57: Pulling fs layer 
+[1B
+[1A[2K
+5e2195587d10: Pulling fs layer 
+[1B
+[1A[2K
+6f595b2fc66d: Pulling fs layer 
+[1B
+[1A[2K
+165f32bf4e94: Pulling fs layer 
+[1B
+[1A[2K
+67c4f504c224: Pulling fs layer 
+[1B[2A[2K
+165f32bf4e94: Waiting 
+[2B[1A[2K
+67c4f504c224: Waiting 
+[1B[5A[2K
+8e402f1a9c57: Downloading  28.09kB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Downloading  90.16kB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Downloading  175.8kB/2.755MB
+[5B[3A[2K
+6f595b2fc66d: Downloading  14.28kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  699.6kB/2.755MB
+[5B[3A[2K
+6f595b2fc66d: Downloading  27.97kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  961.8kB/2.755MB
+[5B[3A[2K
+6f595b2fc66d: Downloading  68.87kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  1.126MB/2.755MB
+[5B[3A[2K
+6f595b2fc66d: Downloading  216.9kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  1.519MB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Downloading  1.715MB/2.755MB
+[5B[3A[2K
+6f595b2fc66d: Downloading    544kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  1.814MB/2.755MB
+[5B[3A[2K
+6f595b2fc66d: Downloading  904.5kB/1.332MB
+[3B[5A[2K
+8e402f1a9c57: Downloading  2.109MB/2.755MB
+[5B[3A[2K
+6f595b2fc66d: Downloading  1.199MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Verifying Checksum 
+[3B[3A[2K
+6f595b2fc66d: Download complete 
+[3B[4A[2K
+5e2195587d10: Downloading  218.7kB/21.6MB
+[4B[5A[2K
+8e402f1a9c57: Downloading  2.273MB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Downloading    2.6MB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Downloading  2.698MB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Verifying Checksum 
+[5B[5A[2K
+8e402f1a9c57: Download complete 
+[5B[5A[2K
+8e402f1a9c57: Extracting  32.77kB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Extracting  2.755MB/2.755MB
+[5B[5A[2K
+8e402f1a9c57: Pull complete 
+[5B[4A[2K
+5e2195587d10: Downloading  439.1kB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  668.5kB/21.6MB
+[4B[2A[2K
+165f32bf4e94: Downloading     108B/108B
+[2B[2A[2K
+165f32bf4e94: Verifying Checksum 
+[2B[2A[2K
+165f32bf4e94: Download complete 
+[2B[1A[2K
+67c4f504c224: Downloading     771B/9.267kB
+[1B[1A[2K
+67c4f504c224: Download complete 
+[1B[4A[2K
+5e2195587d10: Downloading  897.9kB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  1.123MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading   1.34MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading   1.57MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  1.795MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  2.012MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  2.241MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  2.471MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  2.688MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  2.913MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  3.142MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  3.368MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  3.585MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  3.814MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  4.035MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  4.257MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  4.482MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  4.699MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  4.928MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  5.158MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  5.387MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  5.604MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  5.825MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  6.042MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  6.272MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  6.501MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  6.726MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  7.173MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  7.398MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  7.615MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  7.836MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  8.058MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  8.516MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  8.746MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  9.205MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  9.434MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  9.663MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  9.893MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  10.35MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  10.58MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  10.81MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  11.02MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  11.25MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  11.48MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  11.94MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  12.17MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading   12.4MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  12.61MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  12.84MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading   13.3MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  13.53MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  13.74MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  13.97MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading   14.2MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  14.66MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  14.89MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  15.12MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  15.35MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  15.81MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  16.04MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  16.26MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  16.48MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  16.92MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  17.38MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  17.61MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  17.84MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  18.07MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  18.52MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  19.19MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  19.65MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  20.33MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  20.55MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Downloading  21.23MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Download complete 
+[4B[4A[2K
+5e2195587d10: Extracting  229.4kB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  12.16MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  16.74MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  18.58MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting   19.5MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting  20.64MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Extracting   21.6MB/21.6MB
+[4B[4A[2K
+5e2195587d10: Pull complete 
+[4B[3A[2K
+6f595b2fc66d: Extracting  32.77kB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Extracting  1.332MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Extracting  1.332MB/1.332MB
+[3B[3A[2K
+6f595b2fc66d: Pull complete 
+[3B[2A[2K
+165f32bf4e94: Extracting     108B/108B
+[2B[2A[2K
+165f32bf4e94: Extracting     108B/108B
+[2B[2A[2K
+165f32bf4e94: Pull complete 
+[2B[1A[2K
+67c4f504c224: Extracting  9.267kB/9.267kB
+[1B[1A[2K
+67c4f504c224: Extracting  9.267kB/9.267kB
+[1B[1A[2K
+67c4f504c224: Pull complete 
+[1BDigest: sha256:7c0635934049afb9ca0481fb6a58b16100f990a0d62c8665b9cfb5c9ada8a99f
+Status: Downloaded newer image for devopsdockeruh/pull_exercise:latest
+[1G[0JGive me the password: [23Gbasics
+
+You found the correct password. Secret message is:
+"This is the secret message"
+
+[?2004h]0;root@REDACTED: /home/REDACTED/dev/devops-with-dockerroot@REDACTED:/home/REDACTED/dev/devops-with-docker# [?2004l
+
+exit
+
+Script done on 2024-05-15 19:10:05+07:00 [COMMAND_EXIT_CODE="0"]
