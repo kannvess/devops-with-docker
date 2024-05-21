@@ -1,0 +1,28 @@
+services:
+  example-backend:
+    build: ./backend/
+    container_name: example-backend
+    environment:
+      - REDIS_HOST=redis
+      - POSTGRES_PASSWORD=exercises2-6
+      - POSTGRES_HOST=db
+    ports:
+      - "127.0.0.1:8080:8080"
+  example-frontend:
+    build: ./frontend/
+    container_name: example-frontend
+    ports:
+      - "127.0.0.1:5000:5000"
+  redis:
+    image: redis:7.2.5-alpine3.19
+    container_name: redis
+  db:
+    image: postgres:16-alpine
+    volumes:
+      - database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=exercises2-6
+    container_name: exercises2-6_db
+
+volumes:
+  database:
