@@ -1,0 +1,5 @@
+docker build ./backend/ -t example-backend
+docker build ./frontend/ -t example-frontend
+
+docker run -d -p 127.0.0.1:8080:8080 example-backend
+docker run -d -p 127.0.0.1:5000:5000 example-frontend
