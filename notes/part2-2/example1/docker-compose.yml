@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16-alpine3.19
+    networks:
+      - database-network # Name in this Docker Compose file
+
+networks:
+  database-network: # Name in this Docker Compose file
+    name: database-network # Name that will be the actual name of the network
+
+# networks:
+# default:
+# external:
+# name:
