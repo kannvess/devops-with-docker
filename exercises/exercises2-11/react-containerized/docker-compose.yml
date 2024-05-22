@@ -1,0 +1,11 @@
+services:
+  frontend-containerized:
+    build: .
+    command: npm run dev -- --host
+    volumes:
+      - ./:/usr/src/app
+      - node_modules:/usr/src/app/node_modules
+    container_name: frontend-containerized
+
+volumes:
+  node_modules:
