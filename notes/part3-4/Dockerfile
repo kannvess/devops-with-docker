@@ -1,14 +1,13 @@
-FROM ubuntu:22.04
+FROM python:3.12-alpine
 
 WORKDIR /mydir
 
-RUN apt-get update && apt-get install -y curl python3 && \
+RUN apk add --no-cache curl ca-certificates && \
     curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp && \
+    apk del curl && \
     chmod a+x /usr/local/bin/yt-dlp && \
-    useradd -m appuser && \
-    chown appuser . && \
-    apt-get purge -y --auto-remove curl && \
-    rm -rf /var/lib/apt/lists/*
+    adduser -D appuser && \
+    chown appuser .
 
 USER appuser
 
